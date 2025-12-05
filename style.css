@@ -1,0 +1,66 @@
+body {
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url("https://github.com/RD-idk/Cool-Backgrounds/blob/main/RD_designs/website%20wallpaper.svg?raw=true");
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  background-attachment: fixed;
+  background-size: cover;
+  transition: 0.3s; 
+  background-position: center center;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+
+/* Font */
+
+
+.space-grotesk-<uniquifier> {
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+  }
+      @font-face { font-family: "Space Grotesk"; src: url('Space-Grotesk-Regular.ttf'); } 
+      h1 {
+         font-family: "Space Grotesk";
+         color:#ffffffc0;
+      }
+      p {
+        font-family: "Space Grotesk";
+        color:#ffffffc0;
+      }
+      a {
+        font-family: "Space Grotesk";
+        color:#ffffffc0;
+      }
+      h2 {
+        font-family: "Space Grotesk";
+        color:#ffffffc0;
+      }
+      font {
+         font-family: "Space Grotesk";
+         color:#ffffffc0;
+      }
+      footer {
+         font-family: "Space Grotesk";
+         color:#ffffffc0;
+      }
+      small {
+        font-family: "Space Grotesk";
+        color:#ffffffc0;
+      }
+      b {
+        font-family: "Space Grotesk";
+        color:#ffffffc0;
+      }
+
+.container {
+    height: 100vh;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(5px);
+    box-sizing: border-box;
+    transition: 0.5s;
+}
