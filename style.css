@@ -1,5 +1,5 @@
 body {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 1);
   background-image: url("https://github.com/RD-idk/Cool-Backgrounds/blob/main/RD_designs/website%20wallpaper.svg?raw=true");
   background-repeat: repeat;
   background-blend-mode: multiply;
@@ -130,5 +130,6 @@ body {
       display: none;
     }
 }
+
 
 
