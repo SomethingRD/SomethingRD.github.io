@@ -75,6 +75,7 @@ body {
   backdrop-filter: blur(5px);
   box-sizing: border-box;
   z-index: 1;
+  transition: 0.3s;
   position: sticky;
   border-radius: 0px 0px 20px 20px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.25);
@@ -97,10 +98,14 @@ body {
   background-color: rgba(255, 255, 255, 0.5);
 }
 
+.topbar .menubtn:active {
+  scale: 1.1;
+}
+
 .menubar {
   position: absolute;
   right: 20px;
-  height: 40px;
+  height: 30px;
   border-radius: 5px;
 }
 
@@ -109,11 +114,13 @@ body {
   padding: 5px;
   transition: 0.3s;
   border-radius: 5px;
+  scale: 1;
+  display: inline-block;
 }
 
 .menubar a:hover {
   outline: 1px solid rgba(255, 255, 255, 0.25);
-  scale: 1.250;
+  scale: 1.1;
 }
 
 .menubar a:active {
