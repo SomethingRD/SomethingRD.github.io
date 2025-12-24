@@ -12,18 +12,28 @@
 
 <!-- Content -->
  <!-- Mobile Menus -->
- <!-- INSERT MENU HTML FILES HERE -->
+ <div id="main-with-menu">
+    <div id="Menu" class="Menu">
+    <img href="javascript:void(0)" class="closebtn" onclick="closeMenu()" src="close_hamburger.svg" width="27" height="27"></img>
+    <p>MENU</p>
+    <a href="index.html">Home</a>
+    <a href="https://github.com/SomethingRD/SomethingRD.github.io">Source Code</a>
+    <a href="javascript:void(0)" onclick="openGallery()">Menu in progress</a>
+    
+    </div>
+   <div id="overlay1" onclick="closeMenu()"></div>
 
 
-
+<div id="main">
  <!-- Topbar -->
 <div class="topbar">
     <div class="menubtn">
-        <img src="hamburger.svg" >
+        <img src="hamburger.svg" onclick="openMenu()">
     </div>
-    <img src="logo.svg" style="height: 50px; margin-left: 5px;">
+    <img src="logo.svg" class="logo">
+    <!-- PC Menus -->
     <div class="menubar">
-        <p><a href="https://github.com/SomethingRD/SomethingRD.github.io">Source Code</a> <a>Menu bar in progress</a></p> 
+        <p><a href="https://github.com/SomethingRD/SomethingRD.github.io">Source Code</a><a>Menu bar in progress</a></p> 
     </div>
 </div>
 
@@ -35,5 +45,8 @@
     <br><p align="center">Big changes to this site are coming soon.</p>
     <br><p align="center"><a href="https://discord.gg/DHEannubaH">The Something Discord Server</a> &#9475; <a href="https://somethingrd.github.io/old-site/index">Old SomethingRD's Site Design</a></p>
 </div>
+</div>
+</div>
 
 </head>
+<script src="menu_script.js"></script>
