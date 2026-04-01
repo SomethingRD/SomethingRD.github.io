@@ -2,6 +2,23 @@
 <head>
 <!-- Fonts and style -->
     <style>
+.large_logo {
+    max-width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+    margin: auto;
+    padding-top: 15px;
+}
+
+@media only screen and (min-width: 750px) {
+    .large_logo {
+        max-width: 400px;
+        height: 150px
+    }
+}
+
         @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
     </style>
     <link rel="stylesheet" href="style.css">
@@ -30,23 +47,90 @@
     <div class="menubtn">
         <img src="hamburger.svg" onclick="openMenu()">
     </div>
-    <img src="logo.svg" class="logo">
+    <img src="logo.svg" class="logo" style="display:none;">
     <!-- PC Menus -->
     <div class="menubar">
-        <p><a href="https://github.com/SomethingRD/SomethingRD.github.io">Source Code</a><a>Menu bar in progress</a></p> 
+        <p id="topbar"><a href="https://github.com/SomethingRD/SomethingRD.github.io">Source Code</a><a>Menu bar in progress</a></p> 
     </div>
 </div>
 
  <!-- Container with content -->
 <div class="container">
-    <div style="height: 80px;"></div>
-    <h1 align="center" style="margin-top: 250px">Welcome!</h1>
-    <p align="center">SomethingRD's Site is Under Developement right now.</p>
-    <br><p align="center">Big changes to this site are coming soon.</p>
-    <br><p align="center"><a href="https://discord.gg/DHEannubaH">The Something Discord Server</a> &#9475; <a href="https://somethingrd.github.io/old-site/index">Old SomethingRD's Site Design</a></p>
+     <div style="height: 80px;"></div>
+<!-- logo contents -->
+
+  <div class="large_logo">
+    <img class="center-image" src="logo.svg" width="100%">
+  </div>
+
+<!-- not logo contents -->
+<!-- Container contents -->
+ <div class="container_content">
+<div class="main_content">
+  <p align="center">Hi, I’m RD</p>
+  <p align="center">Some random guy from 🇱🇹</p>
+</div>
+
+
+<div class="side_content">
+  <div class="empty_space"></div>
+<a href="DMS_Etiquette.html"><button class="button">⚠ DMS Etiquette ⚠</button></a>
+<div class="empty_space"></div>
+<button type="button" class="collapsible">Interests/Hobbies</button>
+<div class="content">
+  <li class="dot_thingy">Tech</li>
+  <li class="dot_thingy">Graphic design (I make Profile Pictures, Banners and sometimes UI design)</li>
+  <li class="dot_thingy">Gaming (Mostly BeamNG.drive, osu! and Minecraft)</li>
+  <li class="dot_thingy">Editing (Alight Motion, Adobe After Effects)</li>
+  <li class="dot_thingy">Website Development (Currently learning: HTML, CSS and a little bit of JS)</li>
+</div>
+<div class="empty_space"></div>
+<button type="button" class="collapsible">Links</button>
+<div class="content">
+<div class="empty_space"></div>
+<a href="https://discord.gg/DHEannubaH"><button class="button">Discord Server</button></a>
+<div class="empty_space"></div>
+<a href="https://www.tiktok.com/@SomethingRD"><button class="button">TikTok</button></a>
+<div class="empty_space"></div>
+<a href="https://guns.lol/SomethingRD"><button class="button">guns.lol</button></a>
+<div class="empty_space"></div>
+<a href="https://github.com/RD-idk"><button class="button">GitHub</button></a>
+<div class="empty_space"></div>
+<a href="https://open.spotify.com/user/krc5kgq9dkwycu8kj40gqx9tx?si=b3e7c83d050c4266"><button class="button">Spotify</button></a>
+<div class="empty_space"></div>
+<a href="https://snapchat.com/add/somethingrd"><button class="button">Snapchat (I don't use this anymore.)</button></a>
+<div class="empty_space"></div>
+<a href="https://www.bandlab.com/rd_bandlab"><button class="button">BandLab (I don't use this anymore.)</button></a>
+<div class="empty_space"></div>
+<a href="https://roblox.com/users/1165985124/profile"><button class="button">Roblox</button></a>
+<div class="empty_space"></div>
+<a href="https://www.deviantart.com/rd-deviantart"><button class="button">DeviantArt (I don't use this anymore.)</button></a>
+<div class="empty_space"></div>
+<a href="https://reddit.com/user/_RD_-/"><button class="button">Reddit</button></a>
+<div class="empty_space"></div>
+<a href="https://t.me/@SomethingRD"><button class="button">Telegram</button></a>
+<div class="empty_space"></div>
+</div>
+<div class="empty_space"></div>
+<button type="button" class="collapsible">My Discord Status</button>
+<div class="content">
+<div style="max-width: 350px; display: flex; justify-content: center; box-sizing: border-box; align-items: center; left: 50%; margin: auto;" >
+    
+    <img class="center-image" src="https://lanyard.cnrad.dev/api/1063491817116549181" alt="Discord Status" width="100%" style="box-sizing: border-box;">
+   
 </div>
 </div>
 </div>
+</div>
+<!-- not container contents -->
+<br>
+
+
+
+</div>  
+
 
 </head>
 <script src="menu_script.js"></script>
+<script src="collapsible.js"></script>
+<script src="seasonal.js"></script>

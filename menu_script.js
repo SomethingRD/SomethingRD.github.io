@@ -3,8 +3,8 @@ function openMenu() {
   document.getElementById("Menu").style.marginLeft = "0px";
   document.getElementById("Menu").style.borderRight = "rgba(255, 255, 255, 0.25) 1px solid";
   document.getElementById("Menu").style.overflowY = "visible"
-  document.getElementById("main").style.marginLeft = "60px";
-  document.getElementById("main").style.marginRight = "-60px";
+  document.getElementById("main").style.marginLeft = "25px";
+  document.getElementById("main").style.marginRight = "-25px";
 }
 
 function closeMenu() {
