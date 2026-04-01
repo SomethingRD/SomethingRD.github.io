@@ -15,6 +15,11 @@ if (month === 3 && day === 1) {
         * {
             animation: rotatePrank 15s;
         }
+        body {
+            background-color: #FE9000 ;
+            background-image: url("https://raw.githubusercontent.com/SomethingRD/Cool-Backgrounds/refs/heads/main/Untitled19_20260401180804.png");
+            background-repeat: repeat;
+            }
     `;
     document.head.appendChild(style);
     window.alert("April Fools!");
